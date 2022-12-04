@@ -31,4 +31,8 @@ code {
     @apply fixed navbar-bg bg-[#FFFFFF95] shadow-md top-0 left-0 right-0 px-2 sm:px-4 py-2 transition-all
   }
 
+  .hello{
+    @apply text-center bg-sky-800
+  }
+
 }
