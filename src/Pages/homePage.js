@@ -51,11 +51,11 @@ export default function HomePage() {
               M&M DRYWALL CONSTRUCTION LLC
             </h1>
             <p className="py-6">
-              M&M Drywall Construction LLC. is a licensed, bonded and insured
-              company. We are a company that offers services of framing metal,
-              typing, and finishing walls. We have 36 years of experience with a
-              focus on acquiring quality materials that helps us to offer you a
-              better quality service.
+              M&M Drywall Construction LLC. is a licensed, bonded, and insured
+              company. We are a company that offers metal frame, drywall,
+              typing, and finishing walls services. We have 36 years of
+              experience with a focus on acquiring quality materials that help
+              us to offer you a better quality service.
             </p>
           </div>
         </div>
@@ -87,13 +87,13 @@ export default function HomePage() {
             <span className="font-semibold">Email:</span> masaldo1220@gmail.com
           </p>
           <p>
-            <span className="font-semibold">Number: </span>(252) 412-4185
+            <span className="font-semibold">Number: </span>(252)412-4185
           </p>
           <p>
             <span className="font-semibold">Email: </span>Martaqq33@gmail.com
           </p>
           <p>
-            <span className="font-semibold">Number: </span>(203) 695-4410
+            <span className="font-semibold">Number: </span>(203)695-4410
           </p>
         </div>
         <div>
