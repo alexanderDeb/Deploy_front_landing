@@ -2,14 +2,17 @@ import React from "react";
 import HeroImg from "../Assets/Home_Hero_Img.jpeg";
 import Card_1 from "../Assets/Card_Img_Principal.jpg";
 import Card_2 from "../Assets/Card_img.jpeg";
-import {FiMail, FiPhoneOutgoing} from "react-icons/fi"
+import { FiMail, FiPhoneOutgoing } from "react-icons/fi";
 
 export default function HomePage() {
   return (
     <div>
       <div
         className="flex justify-center bg-sky-600 md:hidden bg-contain bg-repeat"
-        style={{ backgroundImage: `url(${HeroImg})`, backgroundPosition: 'center'}}
+        style={{
+          backgroundImage: `url(${HeroImg})`,
+          backgroundPosition: "center"
+        }}
       >
         <div className="hero-overlay bg-opacity-60 text-white py-32">
           <h3 className="text-4xl pt-10">M&M DRYWALL CONSTRUCTION LLC</h3>
@@ -48,11 +51,11 @@ export default function HomePage() {
               M&M DRYWALL CONSTRUCTION LLC
             </h1>
             <p className="py-6">
-              With a clear focus on supplying local, quality building materials
-              for new construction and an unmatched level of service to
-              homebuilders and other large project customers. Our 30 years of
-              excellent service demonstrates our consistency and passion for
-              what we do.
+              M&M Drywall Construction LLC. is a licensed, bonded and insured
+              company. We are a company that offers services of framing metal,
+              typing, and finishing walls. We have 36 years of experience with a
+              focus on acquiring quality materials that helps us to offer you a
+              better quality service.
             </p>
           </div>
         </div>
@@ -69,8 +72,10 @@ export default function HomePage() {
               M&M DRYWALL CONSTRUCTION LLC
             </h1>
             <p className="py-6">
-              Give us the opportunity to show you the difference. Call us with
-              your needs and let us schedule a delivery for you.
+              Give us the opportunity to show you the difference. Our services
+              are available for Connecticut, Massachusetts, Hartford, New
+              Jersey, New Yor, among others. Call us with your needs and
+              schedule a appointment with us.
             </p>
           </div>
         </div>
@@ -78,25 +83,33 @@ export default function HomePage() {
       <footer className="footer p-10 bg-base-300 text-base-content">
         <div>
           <span className="footer-title">Services</span>
-          <p><span className="font-semibold">Email:</span> masaldo1220@gmail.com</p>
-          <p><span className="font-semibold">Number: </span>(252) 412-4185</p>
-          <p><span className="font-semibold">Email: </span>Martaqq33@gmail.com</p>
-          <p><span className="font-semibold">Number: </span>(203) 695-4410</p>
+          <p>
+            <span className="font-semibold">Email:</span> masaldo1220@gmail.com
+          </p>
+          <p>
+            <span className="font-semibold">Number: </span>(252) 412-4185
+          </p>
+          <p>
+            <span className="font-semibold">Email: </span>Martaqq33@gmail.com
+          </p>
+          <p>
+            <span className="font-semibold">Number: </span>(203) 695-4410
+          </p>
         </div>
         <div>
           <span className="footer-title">Social</span>
           <div className="grid grid-flow-col gap-4">
             <a href="mailto:masaldo1220@gmail.com" className="text-2xl">
-              <FiMail/>
+              <FiMail />
             </a>
             <a href="tel:(252) 412-4185" className="text-2xl">
-              <FiPhoneOutgoing/>
+              <FiPhoneOutgoing />
             </a>
             <a href="mailto:Martaqq33@gmail.com" className="text-2xl">
-            <FiMail/>
+              <FiMail />
             </a>
             <a href="tel:(203) 695-4410" className="text-2xl">
-              <FiPhoneOutgoing/>
+              <FiPhoneOutgoing />
             </a>
           </div>
         </div>
